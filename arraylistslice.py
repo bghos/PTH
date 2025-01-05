@@ -1,0 +1,10 @@
+s = input()
+l = list(map(int,input().split()))
+print(l[::-1])
+print(l[::-2])
+print(l[::2])
+print(l[1::2])
+print(l[1:4])
+print(l[1:4:2])
+print(l[1::-1])
+
